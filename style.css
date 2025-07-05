@@ -1,0 +1,150 @@
+/*
+Project: Password Validation Checker
+Author: Kamran Javed
+Portfolio: https://kamranjaved.online
+Company: OneDigitalLine
+Website: https://onedigitalline.com
+Email: meet@kamranjaved.online
+License: For personal or client use only. Redistribution prohibited.
+© Kamran Javed. All rights reserved.
+*/
+:root {
+  --primary-color: #4285f4;
+  --background-color: #fff;
+  --text-color: #333;
+  --subtle-text: #999;
+  --border-color: #ccc;
+  --valid-color: #4285f4;
+  --input-height: 65px;
+  --font-family: "Poppins", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-family);
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: var(--primary-color);
+}
+
+.password-wrapper {
+  width: 100%;
+  max-width: 450px;
+  padding: 28px;
+  border-radius: 8px;
+  background-color: var(--background-color);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
+}
+
+.password-field {
+  position: relative;
+  height: var(--input-height);
+  margin-bottom: 20px;
+}
+
+.password-field input {
+  width: 100%;
+  height: 100%;
+  padding: 0 50px 0 17px;
+  font-size: 1.3rem;
+  border: 1px solid var(--border-color);
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.password-field input:focus {
+  border: 2px solid var(--primary-color);
+}
+
+.password-field button {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  color: var(--subtle-text);
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.password-field button:hover {
+  color: var(--primary-color);
+}
+
+.requirements {
+  margin-top: 10px;
+}
+
+.requirements p {
+  font-size: 1.2rem;
+  color: var(--text-color);
+  margin-bottom: 12px;
+}
+
+.requirement-list {
+  list-style: none;
+}
+
+.requirement-list li {
+  display: flex;
+  align-items: center;
+  font-size: 1.1rem;
+  margin-bottom: 12px;
+  color: var(--text-color);
+  transition: color 0.3s;
+}
+
+.requirement-list li i {
+  width: 20px;
+  text-align: center;
+  font-size: 1rem;
+  color: var(--subtle-text);
+  transition: color 0.3s, font-size 0.3s;
+}
+
+.requirement-list li span {
+  margin-left: 12px;
+}
+
+.requirement-list li.valid i {
+  font-size: 1.2rem;
+  color: var(--valid-color);
+}
+
+.requirement-list li.valid span {
+  color: var(--subtle-text);
+}
+
+@media (max-width: 500px) {
+  .password-wrapper {
+    padding: 20px;
+  }
+
+  .password-field {
+    height: 55px;
+  }
+
+  .password-field input {
+    font-size: 1.1rem;
+    padding-right: 45px;
+  }
+
+  .requirements p,
+  .requirement-list li {
+    font-size: 1rem;
+  }
+
+  .requirement-list li span {
+    margin-left: 8px;
+  }
+}

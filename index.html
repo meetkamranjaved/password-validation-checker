@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password Validation Checker</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta name="author" content="Kamran Javed">
+    <meta name="copyright" content="OneDigitalLine.com">
+</head>
+
+<body>
+    <main class="password-wrapper">
+        <label class="password-field">
+            <input type="password" id="password" placeholder="Create password" aria-label="Create password" />
+            <button type="button" id="togglePassword" aria-label="Show or hide password">
+                <i class="fa-solid fa-eye"></i>
+            </button>
+        </label>
+        <section class="requirements">
+            <p>Password must contain:</p>
+            <ul class="requirement-list">
+                <li>
+                    <i class="fa-solid fa-circle"></i>
+                    <span>At least 8 characters</span>
+                </li>
+                <li>
+                    <i class="fa-solid fa-circle"></i>
+                    <span>At least 1 number (0–9)</span>
+                </li>
+                <li>
+                    <i class="fa-solid fa-circle"></i>
+                    <span>At least 1 lowercase letter (a–z)</span>
+                </li>
+                <li>
+                    <i class="fa-solid fa-circle"></i>
+                    <span>At least 1 special symbol (!...$)</span>
+                </li>
+                <li>
+                    <i class="fa-solid fa-circle"></i>
+                    <span>At least 1 uppercase letter (A–Z)</span>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+<!--
+Project: Password Validation Checker
+Author: Kamran Javed
+Portfolio: https://kamranjaved.online
+Company: OneDigitalLine
+Website: https://onedigitalline.com
+Email: meet@kamranjaved.online
+License: For personal or client use only. Redistribution prohibited.
+© Kamran Javed. All rights reserved.
+-->
+
+</html>
