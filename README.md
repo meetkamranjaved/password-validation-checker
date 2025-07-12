@@ -12,7 +12,7 @@ It checks the user's input in real time against multiple security criteria with 
 ---
 
 ## 🚀 Demo
-[Live Demo](https://projects.kamranjaved.online/password-validation-checker)
+[Live Demo](https://projects.kamranjaved.com/password-validation-checker)
 
 ---
 
@@ -56,4 +56,4 @@ It checks the user's input in real time against multiple security criteria with 
 
 ---
 
-> Developed with ❤️ by [Kamran Javed](https://kamranjaved.online)
+> Developed with ❤️ by [Kamran Javed](https://kamranjaved.com)
