@@ -1,9 +1,7 @@
-// Get references
 const passwordInput = document.getElementById("password");
 const toggleButton = document.getElementById("togglePassword");
 const requirementItems = document.querySelectorAll(".requirement-list li");
 
-// Define requirements
 const requirements = [
   { regex: /.{8,}/, index: 0 }, // At least 8 characters
   { regex: /[0-9]/, index: 1 }, // At least one number
@@ -12,7 +10,6 @@ const requirements = [
   { regex: /[A-Z]/, index: 4 }, // At least one uppercase letter
 ];
 
-// Validate password on input
 passwordInput.addEventListener("input", () => {
   const value = passwordInput.value;
   requirements.forEach((req) => {
@@ -25,7 +22,6 @@ passwordInput.addEventListener("input", () => {
   });
 });
 
-// Toggle password visibility
 toggleButton.addEventListener("click", () => {
   const isPassword = passwordInput.type === "password";
   passwordInput.type = isPassword ? "text" : "password";
@@ -36,9 +32,9 @@ toggleButton.addEventListener("click", () => {
 
 // Project: Password Validation Checker
 // Author: Kamran Javed
-// Portfolio: https://kamranjaved.online
+// Portfolio: https://kamranjaved.com
 // Company: OneDigitalLine
 // Website: https://onedigitalline.com
-// Email: meet@kamranjaved.online
+// Email: meet@kamranjaved.com
 // License: For personal or client use only. Redistribution prohibited.
 // © Kamran Javed. All rights reserved.
