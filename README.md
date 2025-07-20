@@ -7,12 +7,12 @@ It checks the user's input in real time against multiple security criteria with 
 ---
 
 ## 📸 Screenshot
-![Password Validation Checker](https://github.com/user-attachments/assets/c2b71062-c0ba-46ae-b2a1-a159215212c7)
+![Password Validation Checker](https://github.com/user-attachments/assets/efcec6b6-179f-4ec2-873b-82fefa227276)
 
 ---
 
 ## 🚀 Demo
-[Live Demo](https://projects.kamranjaved.com/password-validation-checker)
+[Live Demo](https://projects.kamranjaved.com/mini-projects/password-validation-checker)
 
 ---
 
@@ -43,16 +43,17 @@ It checks the user's input in real time against multiple security criteria with 
 ## 📂 How to Use
 1. Clone or download the repo
 2. Open `index.html` in your browser or editor
-3. Customize CSS as needed
-4. Integrate with your backend or auth system
+3. Customize styles and logic as needed
+4. Integrate into your signup/login forms or onboarding UI
 
 ---
 
 ## 💡 Best For
-- Web app registration forms
-- User onboarding pages
-- Learning or teaching front-end validation
-- Portfolios to showcase interactive UI/UX skills
+- Signup and registration forms  
+- Web and mobile apps  
+- Admin dashboards  
+- SaaS platforms  
+- Personal projects
 
 ---
 
